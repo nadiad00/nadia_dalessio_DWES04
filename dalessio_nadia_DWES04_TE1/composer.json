@@ -1,0 +1,15 @@
+{
+    "name": "nadia/dalessio_nadia_dwes04_te1",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nadiad00",
+            "email": "ndalessio@birt.eus"
+        }
+    ],
+    "require": {}
+}
