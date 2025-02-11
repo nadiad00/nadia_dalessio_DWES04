@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "ce3f4eaf-8b4f-4668-9d6b-664a2851bf26",
+		"name": "DWES04TE1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40395649"
+	},
+	"item": [
+		{
+			"name": "createTeam",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\"7\", \"546\", \"934\", \"875\", \"658\", \"1100\", \"56\"]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/equipo/post"
+			},
+			"response": []
+		},
+		{
+			"name": "updateTeam",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\"7\", \"546\", \"333\", \"875\", \"658\", \"1100\", \"56\"]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/equipo/update"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTeam",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/equipo/delete/7"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllTeams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/equipo"
+			},
+			"response": []
+		},
+		{
+			"name": "getTeamById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/equipo/get/3"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllPokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/pokemon"
+			},
+			"response": []
+		},
+		{
+			"name": "getPokemonByType",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/pokemon/get/fantasma"
+			},
+			"response": []
+		},
+		{
+			"name": "getPokemonByGen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost/dalessio_nadia_DWES04_TE1/public/index.php/pokemon/get/5"
+			},
+			"response": []
+		}
+	]
+}
